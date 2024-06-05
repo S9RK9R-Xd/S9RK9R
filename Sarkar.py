@@ -15,7 +15,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python run.py')
+    os.system('python Sarkar.py')
 import uuid
 import os,sys,time,json,random,re,string,platform,base64
 try:
@@ -26,7 +26,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python run.py')
+    os.system('python Sarkar.py')
 import uuid
 import os,sys,time,json,random,re,string,platform,base64
 try:
